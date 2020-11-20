@@ -9,4 +9,4 @@ AWS Enterprise Support team bases on practice working experience with Enterprise
 
 Sample English Dashboard:
 
-
+![image](https://github.com/xzp1990/wafdashboard/main/English_blog_picture.png?raw=true)
