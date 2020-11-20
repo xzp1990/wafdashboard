@@ -8,5 +8,4 @@ IT System built on AWS usually enable WAF, Shield and other Security Service to 
 AWS Enterprise Support team bases on practice working experience with Enterprise customers to build an AWS WAF Log Analysis system based on Elasticsearch to tackle above problem.  With the help of this solution, AWS users can build an insightful WAF log analysis dashboard by few clicks.  Besides, with the help of this dashboard, risk and security administrators can easily analyze the network traffic from multiple perspectives that they can visualize the normal and attack traffic, analyze the attack patterns and trend, attack source IP and countries, vulnerable URL path, and so on.
 
 Sample English Dashboard:
-
-![image](https://github.com/xzp1990/wafdashboard/main/English_blog_picture.png?raw=true)
+![image](https://github.com/xzp1990/wafdashboard/blob/master/English_blog_picture.png?raw=true)
