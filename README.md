@@ -1,5 +1,5 @@
-# wafdashboard
-AWS WAF Dashboard Template for ElasticSearch Kibana.  This WAF Dashboard is created by Jason Xie from AWS Enterprise Support team.
+# AWS WAF Dashboard
+It's very easy to use Elasticsearch Kibana to build a WAF log dashboard, depending on customers' requirements.  In order to help companies to get started quickly and adopt the industry best practice easily, you can follow below the steps to adopt the WAF Log Visualize and Dashboard which is developed by Jason Xie from the AWS Enterprise Support team. 
 
 
 ## Abstract
