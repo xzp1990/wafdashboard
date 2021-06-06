@@ -9,3 +9,36 @@ AWS Enterprise Support team bases on practice working experience with Enterprise
 
 ## Sample WAF Dashboard Picture
 ![image](https://github.com/xzp1990/wafdashboard/blob/main/Kibana_dashboard_github.png)
+
+
+## Index Template for ES 7.X
+<pre><code>
+PUT  _template/awswaf-logs
+{
+    "index_patterns": ["awswaf*"],
+    "settings": {
+    "number_of_shards": 5,
+    "number_of_replicas": 1
+    },
+    "mappings": {
+        "properties": {
+          "httpRequest": {
+            "properties": {
+              "clientIp": {
+                "type": "keyword",
+                "fields": {
+                  "keyword": {
+                    "type": "ip"
+                  }
+                }
+              }
+            }
+          },
+          "timestamp": {
+            "type": "date",
+            "format": "epoch_millis"
+          }
+      }
+  }
+}
+</code></pre>
